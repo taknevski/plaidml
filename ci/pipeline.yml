@@ -37,7 +37,7 @@ steps:
       ninja -C build-opt check-test
     key: linux_x86_64_cmake
     agents:
-      PLATFORM: linux_x86_64
+      PLATFORM: linux_x86_64_t
 
 
 # test phase
